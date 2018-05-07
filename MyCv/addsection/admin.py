@@ -1,10 +1,11 @@
 
 
 from django.contrib import admin
-from .models import Addsection
+from .models import JobTitle, Summary
 
 
-admin.site.register(Addsection)
+admin.site.register(JobTitle)
+admin.site.register(Summary)
 
 
 # Register your models here.

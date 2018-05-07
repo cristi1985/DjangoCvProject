@@ -5,5 +5,5 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('submit_data', views.submit_data, name='submit data'),
-    path('<int:applicant_id/applicant_cv/', views.applicant_cv, name='applicant cv'),
+    path('<int:job_id/job_name/', views.job_name, name='job_name'),
 ]
